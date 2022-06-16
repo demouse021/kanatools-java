@@ -82,6 +82,8 @@ public class KanaAppraiser
         if(eval_char >= ZENKAKU_HIRAGANA_FIRST
         && eval_char <= ZENKAKU_HIRAGANA_LAST_FOR_CONVERT) {
             return true;
+         
+         System.out.println("code iseu is added");
         }
         return false;
     }
