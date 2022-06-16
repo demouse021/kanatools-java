@@ -138,6 +138,10 @@ public class AsciiBooleanChecksTest extends KanaAppraiserTester
     @Test
     public void testHankakuAsciiChecks()
     {
+    
+        System.out.println("cpode isseu ");
+        assertEquals(false, KanaAppraiser.isHankakuAscii (' '));
+        assertEquals(false, KanaAppraiser.isHankakuAscii (' '));
         assertEquals(false, KanaAppraiser.isHankakuAscii (' '));
         assertEquals(false, KanaAppraiser.isHankakuNumber(' '));
         assertEquals(false, KanaAppraiser.isHankakuLetter(' '));
