@@ -253,6 +253,9 @@ public class KanaConverter
     {
         int conversion_ops = createOpsArrayFromString(conversion_ops_string);
         return convertKana(original_string, conversion_ops, chars_to_ignore);
+     System.out.println("issues added");
+     
+      
     }
     //}}}
     //{{{ String convertKana(String, String)
