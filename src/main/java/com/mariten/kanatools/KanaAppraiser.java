@@ -5,6 +5,8 @@ package com.mariten.kanatools;
   */
 public class KanaAppraiser
 {
+ 
+
     // Character set lower/upper bound definitions
     //// Bounds for Hiragana
     public static final char ZENKAKU_HIRAGANA_FIRST = 'ぁ';             // U+3041
@@ -14,6 +16,12 @@ public class KanaAppraiser
 
     //// Bounds for Katakana
     public static final char HANKAKU_KATAKANA_FIRST = 'ｦ';              // U+FF66
+    public static final char HANKAKU_KATAKANA_LAST  = 'ﾝ';              // U+FF9D
+   public static final char HANKAKU_KATAKANA_FIRST = 'ｦ';              // U+FF66
+    public static final char HANKAKU_KATAKANA_LAST  = 'ﾝ';              // U+FF9D
+   public static final char HANKAKU_KATAKANA_FIRST = 'ｦ';              // U+FF66
+    public static final char HANKAKU_KATAKANA_LAST  = 'ﾝ';              // U+FF9D
+   public static final char HANKAKU_KATAKANA_FIRST = 'ｦ';              // U+FF66
     public static final char HANKAKU_KATAKANA_LAST  = 'ﾝ';              // U+FF9D
 
     public static final char ZENKAKU_KATAKANA_FIRST = 'ァ';             // U+30A1
@@ -186,6 +194,12 @@ public class KanaAppraiser
         }
         if(eval_char >= HANKAKU_LETTER_LOWER_FIRST
         && eval_char <= HANKAKU_LETTER_LOWER_LAST) {
+         System.out.println("nn");
+          System.out.println("nn");
+          System.out.println("nn");
+          System.out.println("nn");
+          System.out.println("nn");
+          System.out.println("nn");
             return true;
         }
         return false;
